@@ -2,8 +2,8 @@ package Exercice_3;
 
 public class Mult implements Expr{
 
-    public Expr e1;
-    public Expr e2;
+    private Expr e1;
+    private Expr e2;
 
     public Mult(Expr e1, Expr e2){
         this.e1=e1;
