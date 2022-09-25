@@ -1,7 +1,7 @@
 package Exercice_3;
 
 public class Sqrt implements Expr{
-    public Expr val;
+    private Expr val;
 
     public Sqrt(Expr e){
         this.val=e;
