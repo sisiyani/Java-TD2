@@ -1,7 +1,7 @@
 package Exercice_3;
 
 public class Value implements Expr{
-    public double val;
+    private double val;
     public Value(double val){
         this.val=val;
     }
